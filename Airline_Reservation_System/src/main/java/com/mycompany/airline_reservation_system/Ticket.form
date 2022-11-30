@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="545" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="9" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel4" max="32767" attributes="0"/>
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="408" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="86" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Source" min="-2" pref="113" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="70" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Destination" min="-2" pref="129" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Source" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Destination" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="36" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select City"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Source">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="129">
+                <StringItem index="0" value="Agatti Airport"/>
+                <StringItem index="1" value="Ahmedabad"/>
+                <StringItem index="2" value="Aizawl Airport"/>
+                <StringItem index="3" value="Akola Airport"/>
+                <StringItem index="4" value="Along Airport"/>
+                <StringItem index="5" value="Amausi Airport"/>
+                <StringItem index="6" value="Amritsar Airport"/>
+                <StringItem index="7" value="Bagdogra Airport"/>
+                <StringItem index="8" value="Bajpe Airport"/>
+                <StringItem index="9" value="Bakula Rimpoche Airport"/>
+                <StringItem index="10" value="Balurghat Airport"/>
+                <StringItem index="11" value="Bamrauli Airport"/>
+                <StringItem index="12" value="Barapani Airport"/>
+                <StringItem index="13" value="Bareli Airport"/>
+                <StringItem index="14" value="Bellary Airport"/>
+                <StringItem index="15" value="Bengaluru International Airport"/>
+                <StringItem index="16" value="Bhatinda Airport"/>
+                <StringItem index="17" value="Bhavnagar Airport"/>
+                <StringItem index="18" value="Bhopal Airport"/>
+                <StringItem index="19" value="Bhubaneswar Airport"/>
+                <StringItem index="20" value="Bikaner Airport"/>
+                <StringItem index="21" value="Bilaspur Airport"/>
+                <StringItem index="22" value="Birsa Munda International Airport"/>
+                <StringItem index="23" value="Car Nicobar Airport"/>
+                <StringItem index="24" value="Chandigarh Airport"/>
+                <StringItem index="25" value="Chennai International Airport"/>
+                <StringItem index="26" value="Chhatrapati Shivaji International Airport"/>
+                <StringItem index="27" value="Chikkalthana Airport"/>
+                <StringItem index="28" value="Cochin International Airport"/>
+                <StringItem index="29" value="Cooch Behar Airport"/>
+                <StringItem index="30" value="Cuddapah Airport"/>
+                <StringItem index="31" value="Dabok Airport"/>
+                <StringItem index="32" value="Dabolim Airport"/>
+                <StringItem index="33" value="Daman Airport"/>
+                <StringItem index="34" value="Daparizo Airport"/>
+                <StringItem index="35" value="Darjeeling Airport"/>
+                <StringItem index="36" value="Dehra Dun Airport"/>
+                <StringItem index="37" value="Deparizo Airport"/>
+                <StringItem index="38" value="Devi Ahilyabai Holkar Airport"/>
+                <StringItem index="39" value="Dhanbad Airport"/>
+                <StringItem index="40" value="Dibrugarh Airport"/>
+                <StringItem index="41" value="Dimapur Airport"/>
+                <StringItem index="42" value="Diu Airport"/>
+                <StringItem index="43" value="Gaggal Airport"/>
+                <StringItem index="44" value="Gandhinagar Airport"/>
+                <StringItem index="45" value="Gaya Airport"/>
+                <StringItem index="46" value="Gorakhpur Airport"/>
+                <StringItem index="47" value="Govardhanpur Airport"/>
+                <StringItem index="48" value="Guna Airport"/>
+                <StringItem index="49" value="Gwalior Airport"/>
+                <StringItem index="50" value="Hissar Airport"/>
+                <StringItem index="51" value="Hubli Airport"/>
+                <StringItem index="52" value="Hyderabad International Airport"/>
+                <StringItem index="53" value="Indira Gandhi International Airport"/>
+                <StringItem index="54" value="Jabalpur Airport"/>
+                <StringItem index="55" value="Jagdalpur Airport"/>
+                <StringItem index="56" value="Jaisalmer Airport"/>
+                <StringItem index="57" value="Jeypore Airport"/>
+                <StringItem index="58" value="Jodhpur Airport"/>
+                <StringItem index="59" value="Kailashahar Airport"/>
+                <StringItem index="60" value="Kamalpur Airport"/>
+                <StringItem index="61" value="Kandla Airport"/>
+                <StringItem index="62" value="Kanpur Airport"/>
+                <StringItem index="63" value="Keshod Airport"/>
+                <StringItem index="64" value="Khajuraho Airport"/>
+                <StringItem index="65" value="Kheria Airport"/>
+                <StringItem index="66" value="Khowai Airport"/>
+                <StringItem index="67" value="Kolhapur Airport"/>
+                <StringItem index="68" value="Kota Airport"/>
+                <StringItem index="69" value="Kozhikode Airport"/>
+                <StringItem index="70" value="Kullu Manali Airport"/>
+                <StringItem index="71" value="Kumbhirgram Airport"/>
+                <StringItem index="72" value="Lilabari Airport"/>
+                <StringItem index="73" value="Lohegaon Airport"/>
+                <StringItem index="74" value="Madurai Airport"/>
+                <StringItem index="75" value="Malda Airport"/>
+                <StringItem index="76" value="Mohanbari Airport"/>
+                <StringItem index="77" value="Municipal Airport"/>
+                <StringItem index="78" value="Muzaffarnagar Airport"/>
+                <StringItem index="79" value="Muzaffarpur Airport"/>
+                <StringItem index="80" value="Mysore Airport"/>
+                <StringItem index="81" value="Netaji Subhash Chandra Bose International Airport"/>
+                <StringItem index="82" value="Neyveli Airport"/>
+                <StringItem index="83" value="Osmanabad Airport"/>
+                <StringItem index="84" value="Pantnagar Airport"/>
+                <StringItem index="85" value="Pasighat Airport"/>
+                <StringItem index="86" value="Pathankot Airport"/>
+                <StringItem index="87" value="Patna Airport"/>
+                <StringItem index="88" value="Peelamedu Airport"/>
+                <StringItem index="89" value="Pondicherry Airport"/>
+                <StringItem index="90" value="Porbandar Airport"/>
+                <StringItem index="91" value="Port Blair Airport"/>
+                <StringItem index="92" value="Puttaparthi Airport"/>
+                <StringItem index="93" value="Raipur Airport"/>
+                <StringItem index="94" value="Raja Sansi Airport"/>
+                <StringItem index="95" value="Rajahmundry Airport"/>
+                <StringItem index="96" value="Rajkot Airport"/>
+                <StringItem index="97" value="Rajouri Airport"/>
+                <StringItem index="98" value="Ramagundam Airport"/>
+                <StringItem index="99" value="Ratnagiri Airport"/>
+                <StringItem index="100" value="Rewa Airport"/>
+                <StringItem index="101" value="Rourkela Airport"/>
+                <StringItem index="102" value="Rowriah Airport"/>
+                <StringItem index="103" value="Rudra Mata Airport"/>
+                <StringItem index="104" value="Rupsi Airport"/>
+                <StringItem index="105" value="Salem Airport"/>
+                <StringItem index="106" value="Salonibari Airport"/>
+                <StringItem index="107" value="Sambre Airport"/>
+                <StringItem index="108" value="Sanganeer Airport"/>
+                <StringItem index="109" value="Satna Airport"/>
+                <StringItem index="110" value="Satwari Airport"/>
+                <StringItem index="111" value="Sholapur Airport"/>
+                <StringItem index="112" value="Simla Airport"/>
+                <StringItem index="113" value="Singerbhil Airport"/>
+                <StringItem index="114" value="Sonari Airport"/>
+                <StringItem index="115" value="Sonegaon Airport"/>
+                <StringItem index="116" value="Srinagar Airport"/>
+                <StringItem index="117" value="Surat Airport"/>
+                <StringItem index="118" value="Tezu Airport"/>
+                <StringItem index="119" value="Thanjavur Airport"/>
+                <StringItem index="120" value="Thiruvananthapuram International Airport"/>
+                <StringItem index="121" value="Tirupati Airport"/>
+                <StringItem index="122" value="Trichy Airport"/>
+                <StringItem index="123" value="Tuticorin Airport"/>
+                <StringItem index="124" value="Vadodara Airport"/>
+                <StringItem index="125" value="Varanasi Airport"/>
+                <StringItem index="126" value="Vijayawada Airport"/>
+                <StringItem index="127" value="Vishakhapatnam Airport"/>
+                <StringItem index="128" value="Warangal Airport"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Destination">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="129">
+                <StringItem index="0" value="Agatti Airport"/>
+                <StringItem index="1" value="Ahmedabad"/>
+                <StringItem index="2" value="Aizawl Airport"/>
+                <StringItem index="3" value="Akola Airport"/>
+                <StringItem index="4" value="Along Airport"/>
+                <StringItem index="5" value="Amausi Airport"/>
+                <StringItem index="6" value="Amritsar Airport"/>
+                <StringItem index="7" value="Bagdogra Airport"/>
+                <StringItem index="8" value="Bajpe Airport"/>
+                <StringItem index="9" value="Bakula Rimpoche Airport"/>
+                <StringItem index="10" value="Balurghat Airport"/>
+                <StringItem index="11" value="Bamrauli Airport"/>
+                <StringItem index="12" value="Barapani Airport"/>
+                <StringItem index="13" value="Bareli Airport"/>
+                <StringItem index="14" value="Bellary Airport"/>
+                <StringItem index="15" value="Bengaluru International Airport"/>
+                <StringItem index="16" value="Bhatinda Airport"/>
+                <StringItem index="17" value="Bhavnagar Airport"/>
+                <StringItem index="18" value="Bhopal Airport"/>
+                <StringItem index="19" value="Bhubaneswar Airport"/>
+                <StringItem index="20" value="Bikaner Airport"/>
+                <StringItem index="21" value="Bilaspur Airport"/>
+                <StringItem index="22" value="Birsa Munda International Airport"/>
+                <StringItem index="23" value="Car Nicobar Airport"/>
+                <StringItem index="24" value="Chandigarh Airport"/>
+                <StringItem index="25" value="Chennai International Airport"/>
+                <StringItem index="26" value="Chhatrapati Shivaji International Airport"/>
+                <StringItem index="27" value="Chikkalthana Airport"/>
+                <StringItem index="28" value="Cochin International Airport"/>
+                <StringItem index="29" value="Cooch Behar Airport"/>
+                <StringItem index="30" value="Cuddapah Airport"/>
+                <StringItem index="31" value="Dabok Airport"/>
+                <StringItem index="32" value="Dabolim Airport"/>
+                <StringItem index="33" value="Daman Airport"/>
+                <StringItem index="34" value="Daparizo Airport"/>
+                <StringItem index="35" value="Darjeeling Airport"/>
+                <StringItem index="36" value="Dehra Dun Airport"/>
+                <StringItem index="37" value="Deparizo Airport"/>
+                <StringItem index="38" value="Devi Ahilyabai Holkar Airport"/>
+                <StringItem index="39" value="Dhanbad Airport"/>
+                <StringItem index="40" value="Dibrugarh Airport"/>
+                <StringItem index="41" value="Dimapur Airport"/>
+                <StringItem index="42" value="Diu Airport"/>
+                <StringItem index="43" value="Gaggal Airport"/>
+                <StringItem index="44" value="Gandhinagar Airport"/>
+                <StringItem index="45" value="Gaya Airport"/>
+                <StringItem index="46" value="Gorakhpur Airport"/>
+                <StringItem index="47" value="Govardhanpur Airport"/>
+                <StringItem index="48" value="Guna Airport"/>
+                <StringItem index="49" value="Gwalior Airport"/>
+                <StringItem index="50" value="Hissar Airport"/>
+                <StringItem index="51" value="Hubli Airport"/>
+                <StringItem index="52" value="Hyderabad International Airport"/>
+                <StringItem index="53" value="Indira Gandhi International Airport"/>
+                <StringItem index="54" value="Jabalpur Airport"/>
+                <StringItem index="55" value="Jagdalpur Airport"/>
+                <StringItem index="56" value="Jaisalmer Airport"/>
+                <StringItem index="57" value="Jeypore Airport"/>
+                <StringItem index="58" value="Jodhpur Airport"/>
+                <StringItem index="59" value="Kailashahar Airport"/>
+                <StringItem index="60" value="Kamalpur Airport"/>
+                <StringItem index="61" value="Kandla Airport"/>
+                <StringItem index="62" value="Kanpur Airport"/>
+                <StringItem index="63" value="Keshod Airport"/>
+                <StringItem index="64" value="Khajuraho Airport"/>
+                <StringItem index="65" value="Kheria Airport"/>
+                <StringItem index="66" value="Khowai Airport"/>
+                <StringItem index="67" value="Kolhapur Airport"/>
+                <StringItem index="68" value="Kota Airport"/>
+                <StringItem index="69" value="Kozhikode Airport"/>
+                <StringItem index="70" value="Kullu Manali Airport"/>
+                <StringItem index="71" value="Kumbhirgram Airport"/>
+                <StringItem index="72" value="Lilabari Airport"/>
+                <StringItem index="73" value="Lohegaon Airport"/>
+                <StringItem index="74" value="Madurai Airport"/>
+                <StringItem index="75" value="Malda Airport"/>
+                <StringItem index="76" value="Mohanbari Airport"/>
+                <StringItem index="77" value="Municipal Airport"/>
+                <StringItem index="78" value="Muzaffarnagar Airport"/>
+                <StringItem index="79" value="Muzaffarpur Airport"/>
+                <StringItem index="80" value="Mysore Airport"/>
+                <StringItem index="81" value="Netaji Subhash Chandra Bose International Airport"/>
+                <StringItem index="82" value="Neyveli Airport"/>
+                <StringItem index="83" value="Osmanabad Airport"/>
+                <StringItem index="84" value="Pantnagar Airport"/>
+                <StringItem index="85" value="Pasighat Airport"/>
+                <StringItem index="86" value="Pathankot Airport"/>
+                <StringItem index="87" value="Patna Airport"/>
+                <StringItem index="88" value="Peelamedu Airport"/>
+                <StringItem index="89" value="Pondicherry Airport"/>
+                <StringItem index="90" value="Porbandar Airport"/>
+                <StringItem index="91" value="Port Blair Airport"/>
+                <StringItem index="92" value="Puttaparthi Airport"/>
+                <StringItem index="93" value="Raipur Airport"/>
+                <StringItem index="94" value="Raja Sansi Airport"/>
+                <StringItem index="95" value="Rajahmundry Airport"/>
+                <StringItem index="96" value="Rajkot Airport"/>
+                <StringItem index="97" value="Rajouri Airport"/>
+                <StringItem index="98" value="Ramagundam Airport"/>
+                <StringItem index="99" value="Ratnagiri Airport"/>
+                <StringItem index="100" value="Rewa Airport"/>
+                <StringItem index="101" value="Rourkela Airport"/>
+                <StringItem index="102" value="Rowriah Airport"/>
+                <StringItem index="103" value="Rudra Mata Airport"/>
+                <StringItem index="104" value="Rupsi Airport"/>
+                <StringItem index="105" value="Salem Airport"/>
+                <StringItem index="106" value="Salonibari Airport"/>
+                <StringItem index="107" value="Sambre Airport"/>
+                <StringItem index="108" value="Sanganeer Airport"/>
+                <StringItem index="109" value="Satna Airport"/>
+                <StringItem index="110" value="Satwari Airport"/>
+                <StringItem index="111" value="Sholapur Airport"/>
+                <StringItem index="112" value="Simla Airport"/>
+                <StringItem index="113" value="Singerbhil Airport"/>
+                <StringItem index="114" value="Sonari Airport"/>
+                <StringItem index="115" value="Sonegaon Airport"/>
+                <StringItem index="116" value="Srinagar Airport"/>
+                <StringItem index="117" value="Surat Airport"/>
+                <StringItem index="118" value="Tezu Airport"/>
+                <StringItem index="119" value="Thanjavur Airport"/>
+                <StringItem index="120" value="Thiruvananthapuram International Airport"/>
+                <StringItem index="121" value="Tirupati Airport"/>
+                <StringItem index="122" value="Trichy Airport"/>
+                <StringItem index="123" value="Tuticorin Airport"/>
+                <StringItem index="124" value="Vadodara Airport"/>
+                <StringItem index="125" value="Varanasi Airport"/>
+                <StringItem index="126" value="Vijayawada Airport"/>
+                <StringItem index="127" value="Vishakhapatnam Airport"/>
+                <StringItem index="128" value="Warangal Airport"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Source"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Destination"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="8" rowCount="0">
+                <Column editable="true" title="FlightID" type="java.lang.Object"/>
+                <Column editable="true" title="Flight Name" type="java.lang.Object"/>
+                <Column editable="true" title="Source" type="java.lang.Object"/>
+                <Column editable="true" title="Destination" type="java.lang.Object"/>
+                <Column editable="true" title="Date" type="java.lang.Object"/>
+                <Column editable="true" title="Departure Time" type="java.lang.Object"/>
+                <Column editable="true" title="Arrival Time" type="java.lang.Object"/>
+                <Column editable="true" title="Price" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTable1MouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="Passport" min="-2" pref="77" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Fname" max="32767" attributes="0"/>
+                                      <Component id="Lname" pref="77" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="CustomerID" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CustomerID" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Component id="jButton4" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="Fname" min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="29" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <Component id="Lname" alignment="1" min="-2" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="Passport" min="-2" pref="17" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Customer ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="First Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Last Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Passport No"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Fname">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lname">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Passport">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CustomerID">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CustomerIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="Tprice" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel14" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="Flightname" min="-2" pref="84" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="cat" max="32767" attributes="0"/>
+                              <Component id="Seats" min="-2" max="-2" attributes="0"/>
+                              <Component id="Price" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Dtime" alignment="0" max="32767" attributes="0"/>
+                              <Component id="FlightNo" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Date" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="99" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="FlightNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Flightname" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Dtime" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cat" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Price" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Seats" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="56" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="Date" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="Tprice" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Flight No."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Flight Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Departure Time"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Class"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Price"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cat">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Economy"/>
+                <StringItem index="1" value="Business"/>
+                <StringItem index="2" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Seats"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="FlightNo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Flightname">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Dtime">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="*"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Price">
+        </Component>
+        <Component class="javax.swing.JSpinner" name="Seats">
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="SeatsStateChanged"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Tprice">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Price in INR"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total Price"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Book"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="33" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="Date">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Date"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                      <Component id="Ticket" min="-2" pref="145" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="Ticket" min="-2" pref="33" max="-2" attributes="0"/>
+                  <EmptySpace pref="76" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ticket Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Ticket">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Calibri" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
